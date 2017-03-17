@@ -1,0 +1,18 @@
+@media print {
+	* {background:transparent!important; color:#000!important; width:100%!important; text-shadow:none!important; box-shadow:none!important; filter:none!important; -ms-filter:none!important; border:none!important;}
+	a, a:visited {text-decoration:underline!important;}
+	a[href]::after {content: &quot; (&quot;attr(href) &quot;)&quot;;}	
+	article, main-wrapper, body-post, post-body {margin: 0!important; padding: 0!important;	width: 100%!important; float: none!important;}
+	body {font-size:15pt; font-family: Georgia, &quot;Times New Roman&quot;; color: #000;}
+	h1 {font-size: 24pt; font-family: Georgia, &quot;Times New Roman&quot;;}
+	h2 {font-size: 18pt; font-family: Georgia, &quot;Times New Roman&quot;;}
+	h1, h2, h3, h4, h5, h6 {page-break-after:avoid;}
+	html, body {margin:0!important; padding:0!important;}
+	p {widows:3; orphans:3;}
+	p a {word-wrap: bread-word;}	
+	.page-break {page-break-before:always;}
+	.print {display:block!important;}
+	.wrap {width:100%; margin:0; float:none!important;}
+	#date_wrapper, header, #nav3, #nav4, footer, img, #sidebar-wrapper, #sidebar-wrapper2, .logoColuna, .logoLinha, #selectnav1, #selectnav4, .post_byfix, .blog-pager, #blog-pager, .social_fix, .autorbox, #related-posts, .comments, .breadcrumb, #scroll, #menuhlng1, #icones_nav2, #footerfix, #com-tab, #com-tab2, #headlines2 {display:none!important;}
+	@page {margin:1cm!important;}
+}
